@@ -1,10 +1,10 @@
 export interface Params {
   template_id: string;
-  text: [string];
+  texts: string[];
 }
 
 export interface Template {
-  id: number;
+  id: string;
   name: string;
   url: string;
   with: number;
